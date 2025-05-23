@@ -44,7 +44,7 @@ def run_kMeans(X, initial_centroids, max_iters=10):
 def count_unique_colors(img):
     return len(np.unique(np.reshape(img, (-1, img.shape[2])), axis=0))
 
-image_file = "bird_small.png"  # enter the file name here
+image_file = "image.png"  # enter the file name here
 if not os.path.exists(image_file):
     print("The file does not exist. Please check the file name and try again.")
     exit()
